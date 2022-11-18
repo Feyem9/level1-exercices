@@ -8,12 +8,44 @@
 </head>
 <body>
     <header>
-        <nav> this is an exercice for the lesson 3</nav>
+        <nav navbar="http://google.com"> this is an exercice for the lesson 3<br>with the google site</nav>
     </header>
     <main>
-        <section1>this is the section one</section1>
-        <section2>this is he section two</section2>
+        <section1>this is the section one
+            <table border="4px" style="border-collapse: collapse;" >
+                <th>
+                    <tr>
+                        <td> lecons</td>
+                        <td>exercices</td>
+                    </tr>
+                    <tr>
+                         <td>voivi une cellule de cours</td>
+                         <td>voici une cellule d'exercices</td>
+                    </tr>    
+                </th>
+            </table>
+        </section1>
+        <section2>this is the section two<br>
+            <form method="post" action="form.php">
+                <div class="champ">
+                    <label for="pseudo">entrez un pseudo :</label>
+                    <imput type="text" id="pseudo"></imput>
+                </div>
+                <div class="champ">
+                    <label for="pass">entrez un mot de passe :</label>
+                    <imput type="password" id="pass"></imput>
+                </div>
+                <div class="champ">
+                    <label for="mail">entrez votre email :</label>
+                    <imput type="email" id="mail"></imput>
+                </div>
+                <input type="checkbox" name="sexe" value="male">
+                <input type="checkbox" name="sexe" value="female">
+                <imput type="submit" value="envoyer"></imput>
+        </section2>
     </main>
-    <footer>SEVEN DEV ACADEMY </footer>
+    <footer>©SEVEN DEV ACADEMY 
+        <img src="/home/feyem/images/index.png">
+    </footer>
 </body>
 </html>

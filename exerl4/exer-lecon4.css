@@ -1,4 +1,15 @@
-body { 
-    color: chartreuse;
-
+.style-body{
+    color: aquamarine;
+    background-color: green;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    height: 100vh;
+    width: auto;
+    border: black;
+    border-radius: auto;
+    font-weight: lighter;
+    display: flex;
+    flex-direction:column ;
 }

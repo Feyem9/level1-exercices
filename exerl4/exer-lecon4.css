@@ -1,6 +1,6 @@
 .style-body{
     color: aquamarine;
-    background-color: green;
+    background-color: rgba(17, 17, 16, 0.548);
     font-size: large;
     text-align: center;
     margin: auto;
@@ -12,4 +12,20 @@
     font-weight: lighter;
     display: flex;
     flex-direction:column ;
+}
+
+ .bloc-footer-services{
+color: burlywood;
+background-color: chartreuse;
+
+}
+.bloc-footer-contact{
+    color: thistle;
+    background-color: rgb(225, 65, 126);
+}
+.bloc-footer-reseau{
+    padding: 10%;
+    margin: 030px;
+    background-color: darkgrey;
+    border: 100%;
 }

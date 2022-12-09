@@ -1,0 +1,38 @@
+header{
+    width: 250px;
+    height: 500px;
+    background-color:lavender;
+    color: navy;
+    padding: 4px 3px 6px 3px;
+    display: block;
+    margin: auto;
+    font-size: large;
+    font:sans-serif;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    float: initial;
+    
+}
+
+h4{
+    
+    width: 250px; 
+    height: 500px;
+    background-color:rgb(25, 33, 110);
+    color: rgb(250, 225, 4);
+    padding: 4px 3px 6px 3px;
+    display: block;
+    margin: auto;
+    font-size: large;
+    font:sans-serif;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    float: initial;
+    
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}

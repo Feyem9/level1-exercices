@@ -1,4 +1,4 @@
-.style-body{
+.style-body {
     color: rgb(0, 4, 243);
     background-color: #f1f1f1;
     font-size: large;
@@ -11,33 +11,36 @@
     border-radius: auto;
     font-weight: lighter;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     flex: 1 0 auto;
 }
 
- .bloc-footer-services{
-color: rgb(245, 78, 0);
-background-color: rgb(7, 167, 145);
+.bloc-footer-services {
+    color: rgb(245, 78, 0);
+    background-color: rgb(7, 167, 145);
 
 }
-.bloc-footer-contact{
+
+.bloc-footer-contact {
     color: thistle;
     background-color: rgb(225, 65, 126);
 }
-.bloc-footer-reseaux{
+
+.bloc-footer-reseaux {
     padding: 010;
     margin: 010px;
     background-color: rgb(17, 196, 219);
     border: 100%;
     color: rgb(0, 63, 252);
 }
-footer{
+
+footer {
     flex-shrink: 0;
     border-top: 1 dashed #000;
-    width: 100%; 
+    width: 100%;
 }
 
-.contenu-footer{
+.contenu-footer {
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -47,22 +50,24 @@ footer{
     padding: 50px 0 10px;
 }
 
-.bloc{
+.bloc {
     width: 25%;
     margin: 0 110Px;
 }
+
 /* contact */
 .bloc-footer-contact h3,
 .bloc-footer-reseaux h3,
 .bloc-footer-services h3 {
     font-size: large;
-    padding-bottom:  20px;
+    padding-bottom: 20px;
 }
 
 .bloc-footer-contact p {
     padding: 5Px 0;
 
 }
+
 /* services */
 
 
@@ -76,6 +81,7 @@ footer{
     padding: 2px 0;
 
 }
+
 .liste-sevives a:hover {
     color: blue;
 }

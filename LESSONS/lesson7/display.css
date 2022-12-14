@@ -1,0 +1,119 @@
+/*baic css reset*/
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+/*  headers styles*/
+header.header-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgb(4, 64, 85);
+    /*background-color: linear(rgba(0,0,0,0.7),rgba());*/
+}
+
+header.header-container nav ul.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+header.header-container nav ul.navbar-container li {
+    color: white;
+    list-style: none;
+    font-weight: 700;
+    padding: 0, 5rem;
+    background-color: rgb(16, 187, 87);
+}
+
+header.header-container nav ul.navbar-container li a.nav-links {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header.header-container nav ul.navbar-container li:hover {
+    background-color: rosybrown;
+    color: black;
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+header.header-container div.welcome-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+header.header-container div.welcome-text-container h1.hi-text {
+    color: orange;
+
+}
+
+header.header-container div.welcome-text-container h2.name-text {
+    color: whitesmoke;
+    position: relative;
+    animation: hopIn 4s infinite;
+}
+
+.text-large {
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.text-medium {
+    font-size: 1, 5rem;
+    font-weight: 600;
+}
+
+@keyframes hopIn {
+    0% {
+        color: black;
+        top: -3rem;
+        left: -5rem;
+        font-size: 1, 8rem;
+
+    }
+
+    25% {
+        color: green;
+        top: 2rem;
+        left: 5rem;
+        font-size: 2rem;
+
+    }
+
+    075% {
+        color: red;
+        top: 6rem;
+        left: 8rem;
+        font-size: 3rem;
+    }
+
+    100% {
+        color: rgb(255, 81, 0);
+        top: 10rem;
+        left: 12rem;
+        font-size: 3.5rem;
+    }
+
+}
+.awards-container{
+    color: blue;
+    font-size: 200%;
+    
+}
+.footer-container{
+ color: currentColor;
+ font-size: 200%;   
+ display: flex;
+}

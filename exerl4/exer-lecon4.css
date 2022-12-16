@@ -1,7 +1,8 @@
 .style-body {
     color: rgb(0, 4, 243);
     background-color: #f1f1f1;
-    font-size: large;
+    background-color: rgba(235, 157, 0, 35);
+    font-size: 5 rem;
     text-align: center;
     margin: auto;
     padding: auto;
@@ -12,32 +13,13 @@
     font-weight: lighter;
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
-}
 
-.bloc-footer-services {
-    color: rgb(245, 78, 0);
-    background-color: rgb(7, 167, 145);
-
-}
-
-.bloc-footer-contact {
-    color: thistle;
-    background-color: rgb(225, 65, 126);
-}
-
-.bloc-footer-reseaux {
-    padding: 010;
-    margin: 010px;
-    background-color: rgb(17, 196, 219);
-    border: 100%;
-    color: rgb(0, 63, 252);
 }
 
 footer {
-    flex-shrink: 0;
-    border-top: 1 dashed #000;
+
     width: 100%;
+    display: flex;
 }
 
 .contenu-footer {
@@ -45,14 +27,38 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
+    align-items: center;
+    font-size: 15px;
     padding: 50px 0 10px;
+
 }
 
-.bloc {
-    width: 25%;
-    margin: 0 110Px;
+/* services */
+.contenu-footer .bloc-footer-services {
+    color: rgb(245, 78, 0);
+    background-color: rgb(7, 167, 145);
+    flex: 0, 5rem;
+    height: 380px;
+    margin: 010px;
+    font-size: 18px;
+
+}
+
+.contenu-footer .bloc-footer-contact {
+    color: thistle;
+    background-color: rgb(225, 65, 126);
+    flex: 0, 5rem;
+    height: 380px;
+    padding: 010;
+    margin: 10px;
+}
+
+.contenu-footer .bloc-footer-reseaux {
+    padding: 010;
+    margin: 010px;
+    background-color: rgb(17, 196, 219);
+    border: 100%;
+    color: rgb(0, 63, 252)
 }
 
 /* contact */
@@ -61,6 +67,7 @@ footer {
 .bloc-footer-services h3 {
     font-size: large;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .bloc-footer-contact p {
@@ -68,20 +75,22 @@ footer {
 
 }
 
-/* services */
 
 
-.liste-reseaux {
+
+.contenu-footer .bloc-footer-reseaux .liste-reseaux {
     list-style-type: none;
     position: relative;
     right: 20px;
+    height: 285px;
+    width: 90px;
+    font-size: 18px;
+    
+   
 }
 
-.liste-sevives.li {
+.contenu-footer .bloc-footer-services.liste-sevives {
     padding: 2px 0;
+    flex: auto;
 
-}
-
-.liste-sevives a:hover {
-    color: blue;
 }

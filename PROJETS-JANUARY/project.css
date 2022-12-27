@@ -1,16 +1,16 @@
+/*general*/
 *{
     margin: 0;
     padding: 0;
 }
 body{
-
-    padding: 0;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     box-sizing: border-box;
+    background-color: rgb(194, 177, 176)
     
 }
+/*header*/
 .header-container{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 15px;
@@ -20,10 +20,11 @@ height: 100vh;
 width: 100vw;
 overflow: hidden;
 margin:0 50px;
+position: fixed;
 }
 
 
-.header-container ul.navbar-container{
+.header-container .navbar ul.navbar-container{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -34,8 +35,7 @@ margin:0 50px;
     
    
 }
-
-.navbar .navbar-container li{
+.header-container .navbar ul.navbar-container li{
     list-style: none;
     text-decoration: none;
     height: 50px;
@@ -45,12 +45,17 @@ margin:0 50px;
     text-align: center;
    
 }
-.navbar .navbar-container li a{
+.header-container .navbar ul.navbar-container li a{
     text-transform: uppercase;
     text-decoration: none;
     
 }
-.header-container input{
+.header-container .navbar ul.navbar-container li .nav-item input{
+    width: 100px;
+    height: 30px;
+    border-radius: 6rem;
+}
+.header-container .navbar-container li .nav-item input{
     float: right;
     margin-top: 0;
 }

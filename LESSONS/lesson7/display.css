@@ -117,3 +117,65 @@ header.header-container div.welcome-text-container h2.name-text {
  font-size: 200%;   
  display: flex;
 }
+header.section-header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header.section-header h1{
+font-size: 2rem;
+color:teal ;
+font-weight:800 ;
+/* border-bottom: 4px solid orange */
+}
+header.section-header > p{
+    width: 6.5rem;
+    height: 5px;
+    background-color: orange;
+    /*transition: 1s ease-in;*/
+    position: relative;
+    top: -2.1rem;
+}
+
+@keyframes growOut{
+    from{
+        width: 0rem;
+        background-color: black;
+    }
+    to {
+       width:  8.5rem;
+       background-color: orange;
+
+    }
+
+}
+/*projects section*/
+div.project-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+div.project-preview img{
+    width: 100%;
+    height: 15rem;
+    cursor: pointer;
+   
+    background-color: linear-gradient(to right , rgba(0,0,5,.7)rgba(0,0,20,0));
+}
+
+@keyframes scaleOut{
+    from{
+        transform: scale(1);
+     }
+     to {
+        transform: scale(4);
+       }
+}
+div.project-preview img:hover{
+    animation: scaleOut 1s linear;
+}
+      

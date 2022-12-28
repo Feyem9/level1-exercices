@@ -5,19 +5,22 @@
 }
 
 body {
-    font-family: 'crete round' sans-serif;
-    font-size: 15px;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 0;
+}
 
+h1 {
+    font-family: monospace;
+    color: rgb(5, 59, 207);
+    font-size: 3rem;
 }
 
 /*header*/
 header.header-container {
-    background-color: rgb(189, 215, 216);
+    /*background-color: rgb(189, 215, 216);*/
     width: 100vw;
-    height: 100vh;
+    height: 10vh;
 
 }
 
@@ -26,10 +29,6 @@ header.header-container h1 {
     margin-top: 50px;
 }
 
-header.header-container #logo {
-    color: #444;
-    font-family: 'Crete Round', serif;
-}
 
 header.header-container .navbar-container {
     display: flex;
@@ -51,7 +50,7 @@ header.header-container .navbar-container ul.navbar-container li {
     list-style: none;
     background-color: rgb(248, 240, 240);
     font-weight: 700;
-    color: rgb(161, 236, 12);
+    /*color: rgb(161, 236, 12);*/
 
 }
 
@@ -61,51 +60,69 @@ header.header-container .navbar-container ul.navbar-container li a.nav-link {
     text-align: center;
 }
 
-header.header-container div.div-container {
-    margin-top: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(135, 212, 222);
-
-}
-
-header.header-container div.div-container #pub {
-    background-color: rgb(8, 136, 168);
-}
-
-header.header-container .section-container {
-    display: flex;
-    margin-top: 3rem;
-    gap: 5rem;
-    background-color: burlywood;
-}
-
-header.header-container .section-container .teachers-container {
-    margin-left: 2rem;
-    margin-bottom: 15rem;
-}
-
-header.header-container .section-container .students-container {
-    margin-left: 2rem;
-    margin-bottom: 15rem;
-}
-
 header.header-container div.search-bar {
+    margin-right: 20px;
+    padding: 0px;
+    font-size: 20px;
+    border: 2px solid #111111;
+    border-radius: 10px;
     display: flex;
     margin-left: 2rem;
     margin-bottom: 2rem;
     float: inline-end;
     margin-top: 22px;
-    margin-right: 2rem;
+}
+
+
+section div.div-container {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135, 212, 222);
+    width: 1300px;
+    height: 50px;
+}
+
+section #categories {
+    display: flex;
+    margin-top: 2rem;
+    gap: 5rem;
+    background-color: rgb(135, 216, 222);
     
 }
-header.header-container .header-footer-container{
+fieldset{
+    width: 1000px;
+    height: 100px;
+}
+section #categories div.teachers-container {
+    margin-left: 2rem;
+    margin-bottom: 15rem;
+    margin-right: 30px;
+}
+
+ section #categories.students-container {
+    margin-left: 2rem;
+    margin-bottom: 15rem;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.footer-container{
+    height: 200px;
+    background-color: rgb(185, 202, 27);
+    color: rgb(0, 65, 245);
+    text-align: center;
+    font-weight: bold;
     display: flex;
-    margin-bottom: 2rem;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(135, 219, 222);
-    height: 3rem;
-    gap: 3rem;
+}
+.footer-container div{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.footer-container div li{
+    color: rgb(3, 29, 29);
 }

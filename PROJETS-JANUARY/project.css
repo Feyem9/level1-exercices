@@ -80,6 +80,7 @@ header.header-container div.search-bar{
 header.header-container div.search-bar .search{
     
     border-radius: 30px;
+    height: 30px;
 
 }
 /*kid on*/

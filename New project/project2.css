@@ -27,9 +27,9 @@ li {
 
 /*header*/
 header.header-container {
-    /*background-color: rgb(189, 215, 216);*/
+    background-color: rgb(185, 202, 27);
     width: 100vw;
-    height: 10vh;
+    height: 16.5vh;
 
 }
 
@@ -39,13 +39,13 @@ header.header-container h1 {
 }
 
 
-header.header-container .navbar-container {
+header.header-container .navbar{
     display: flex;
     float: right;
 
 }
 
-header.header-container .navbar-container ul.navbar-container {
+header.header-container .navbar ul.navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ header.header-container .navbar-container ul.navbar-container {
     margin-right: 2rem;
 }
 
-header.header-container .navbar-container ul.navbar-container li {
+header.header-container .navbar ul.navbar-container li {
     list-style: none;
     background-color: rgb(248, 240, 240);
     font-weight: 700;
@@ -63,7 +63,7 @@ header.header-container .navbar-container ul.navbar-container li {
 
 }
 
-header.header-container .navbar-container ul.navbar-container li a.nav-link {
+header.header-container .navbar ul.navbar-container li a.nav-link {
     text-decoration: none;
     cursor: pointer;
     text-align: center;

@@ -36,6 +36,7 @@ header.header-container {
 header.header-container h1 {
     float: left;
     margin-top: 50px;
+    text-transform: uppercase;
 }
 
 
@@ -57,9 +58,8 @@ header.header-container .navbar ul.navbar-container {
 
 header.header-container .navbar ul.navbar-container li {
     list-style: none;
-    background-color: rgb(248, 240, 240);
     font-weight: 700;
-    /*color: rgb(161, 236, 12);*/
+    color: rgb(161, 236, 12);
 
 }
 
@@ -73,16 +73,26 @@ header.header-container div.search-bar {
     margin-right: 20px;
     padding: 0px;
     font-size: 20px;
-    border: 2px solid #111111;
-    border-radius: 10px;
     display: flex;
     margin-left: 2rem;
     margin-bottom: 2rem;
     float: inline-end;
     margin-top: 22px;
+    height: 30px;
+    width: 250px;
 }
-
-
+.go{
+    color: rgb(0, 0, 0);
+    background-color: #00ff40;
+    /*padding: 6px 20px;
+    margin-top: 10px;
+    border-radius: 5px;*/
+    cursor: pointer;
+}
+.go:hover{
+    color: #fff;
+    background-color: #167ebb;
+}
 section div.div-container {
     margin-top: 0rem;
     display: flex;
@@ -99,8 +109,12 @@ section #categories {
     margin-top: 2rem;
     gap: 5rem;
     background-color: rgb(0, 184, 197);
-
-}
+   
+}/*
+.fieldset{
+    justify-content: center;
+    
+}*/
 
 #categories .teachers-container {
     display: block;
@@ -188,8 +202,8 @@ fieldset {
 }
 
 .footer-container div {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
